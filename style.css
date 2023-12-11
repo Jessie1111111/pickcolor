@@ -1,0 +1,76 @@
+    body{
+  background-color: black;
+  background-image: url(img1.jpg);
+}
+    .center{
+      text-align: center;
+    }
+  
+   .title1{
+    color: aliceblue;
+    font-size: 50px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   }
+
+   .title2{
+    color: rgb(254, 171, 216);
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+   }
+
+   .link{
+    color: aliceblue;
+    font-size: 30px;
+    
+   }
+
+   .score{
+    margin: 30px 0;
+    color: aliceblue;
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+   }
+   .input{
+    width: 200px;
+    height: 30px;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+   }
+   .submit{
+    width: 100px;
+    height: 30px;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 10px;
+   }
+    .num{
+      color:aliceblue;
+      margin: 30px 0;
+      font-size: 30px;
+    }
+    .area{
+      border: 10px solid white;
+      height: 400px;
+      width: 400px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      box-sizing: border-box;
+      background-color: white;
+      filter: contrast(5%);
+      filter: brightness(70%);
+      
+    }
+    .item{
+      width: 20%;
+      box-sizing: border-box;
+      /* background-color: #121254; */
+      border: 2px solid gray;
+      border-radius: 10px;
+    }
+    .diff{
+      background-color: red;
+    }
